@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Code Camp Servey Form</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <main class="countiner">
+    <h1 id="title">Parvej Servey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform</p>
+    <div class="form-box">
+        <form id="survey-form action="#">
+            <div>
+            <label for="name" id="name" >
+               Name<br>  <input type="text" name="name" placeholder="Enter your name"><br>
+            </label>
+        </div>
+        <div>
+            <label for="email" id="email" >
+               Email<br> <input type="email" name="email" placeholder="Enter your Email"><br>
+            </label>
+        </div><div>
+            <label for="age" id="age">
+              Age(optional) <br> <input type="number" name="age" placeholder="Age"><br>
+            </label>
+        </div>
+        <div>
+
+            <label for="select" id="select">
+                Which option best describes your current role?<br>
+                <select name="select" id="select" placeholder="Select your role">
+                    <option value="books">Books</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="php">PHP</option>
+                    <option value="js">JavaScript</option>
+                </select><br>
+            </label>
+        </div>
+<div>
+
+    <label for="bullet">
+        Would you recommend freeCodeCamp to a friend?<br>
+        <label for="Definitely">Definitely</label>
+        <input type="radio" id="Definitely" name="Definitely">
+        <label for="Maybe">Maybe</label>
+        <input type="radio" id="Maybe" name="Maybe">
+        <label for="Not Sure">Not Sure</label>
+        <input type="radio" id="Not Sure" name="Not Sure"><br>
+    </label>
+</div>
+<div>
+    
+    <label for="checkbox">
+        What would you like to see improved? (Check all that apply)<br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+    </label>
+</div>
+<div>
+
+    <label for="text-area" class="textarea">
+        Any Comments Or Suggestions<br>
+        <textarea name="text-area" id="messeage" cols="30" rows="10"></textarea><br>
+    </label>
+</div>
+<input type="submit"  value="submit" id="Submit">
+        </form>
+    </div>
+  </main>
+  <body></body>
+</html>
